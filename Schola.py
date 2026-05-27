@@ -104,11 +104,9 @@ def deletar_aluno(aluno_id):
     cursor.execute("DELETE FROM alunos WHERE id = ?", (aluno_id,))
     conn.commit()
 
-
 def deletar_professor(professor_id):
     cursor.execute("DELETE FROM professores WHERE id = ?", (professor_id,))
     conn.commit()
-
 
 def deletar_turma(turma_id):
     cursor.execute("DELETE FROM turmas WHERE id = ?", (turma_id,))
@@ -208,4 +206,4 @@ if __name__ == "__main__":
     criar_tabelas()
     menu()
     fechar_conexao()
-    input("Pressione Enter para sair...")
+    input("Pressione Enter para sair...") 
