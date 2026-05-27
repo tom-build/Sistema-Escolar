@@ -4,18 +4,6 @@ Sistema desktop desenvolvido em Python para gerenciamento acadêmico, permitindo
 
 ---
 
-# Demonstração
-
-> Adicione aqui prints da interface do sistema futuramente.
-
-Exemplo:
-
-```md
-![Tela Inicial](./assets/tela-inicial.png)
-```
-
----
-
 # Funcionalidades
 
 - Cadastro de alunos
